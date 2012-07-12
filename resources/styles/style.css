@@ -9,13 +9,13 @@ body {
 
 /** STEP STYLES **/
 .step {
-    width: 450px;
-    height: 200px;
-    font-size: 30px;
+    width: 500px;
+    height: 250px;
+    font-size: 40px;
     background-color: white;
 
     display: block;
-    border-radius: 10px;
+    border-radius: 20px;
 
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .3);
@@ -90,7 +90,7 @@ body {
 }
 /* fade out inactive slides */
 .step:not(.active) {
-    opacity: 0.3;
+    opacity: 0;
 }
 
 /* Buttons */
@@ -190,4 +190,15 @@ body {
 .roleDescription {
     padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.license {
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    width:832px;
+    margin:0 0 0 -411px;
+    text-align:right;
+    font-size:10px;
+    color:#AAA
 }
